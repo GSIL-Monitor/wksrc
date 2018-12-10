@@ -1,0 +1,19 @@
+.van-dialog {
+  .van-dialog__header {
+    padding: 12px;
+  }
+  .van-dialog__confirm, .van-dialog__confirm:active {
+    color: #d4271ec2;
+  }
+}
+
+.van-switch--on {
+  background-color: #d4271ec2!important;
+}
+.van-cell__title {
+  font-size: 16px;
+}
+
+.van-switch {
+  // font-size: 16px!important;
+}

@@ -1,0 +1,115 @@
+@import './variables.scss';
+
+// 匹配平板
+@media screen and (max-width: 900px) and (min-width: 280px){
+  .full-container {
+    .el-select {
+      width: 100%;
+    }
+    .el-button {
+      width: 100%;
+    }
+  }
+  .el-table .cell, .el-table__header-wrapper .cell {
+    line-height: 28px;
+  }
+  .el-select, .el-input { width: 100%; }
+  .el-select__caret, .el-input__icon, .el-input-inner, .el-input input,
+  .el-select .el-input .el-select__caret
+  { height: 80px; line-height: 80px; font-size: 32px; }
+
+  .el-date-editor--timerange.el-input__inner {
+    width: 100%;
+  }
+  .el-select-dropdown__item , .el-select-dropdown__empty{
+    height: 90px!important;
+    line-height: 90px!important;
+    font-size: 32px!important;
+  }
+  .el-select-dropdown__item {
+    border-bottom: 1px solid #E5E5E5 !important;
+  }
+  .el-select-dropdown__list {
+    text-align: center;
+  }
+  .el-select-dropdown {
+    left: 7.5%!important;
+    width: 85%;
+    top: 20%!important;
+  }
+  .el-select-dropdown__wrap {
+    max-height: 736px;
+  }
+  .el-dialog__close  {
+    font-size: 48px;
+  }
+  .el-dialog, .el-form-item,.el-select, .el-input,.el-form-item__label, .el-form-item__content {
+    line-height: 64px!important;
+    font-size: 32px!important;
+  }
+  .dialog-footer .el-button {
+    width: 288px;
+    font-size: 48px;
+  }
+  .mtext{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .el-radio-button{
+    margin:10px 20px;
+  }
+  .el-radio-button__inner{
+    font-size: 1rem;
+  }
+  .el-dialog__title {
+    font-size: 48px!important;
+    color: $red!important;
+  }
+
+  .el-message__content {
+    font-size: 32px!important;
+  }
+
+  .el-form-item__error {
+    font-size: 32px !important;
+  }
+
+  .el-scrollbar .el-autocomplete-suggestion__wrap li{
+    font-size: 32px !important;
+    line-height: 48px !important;
+  }
+}
+
+@media screen and  (max-width: 900px) and (min-width: 600px) {
+  html {
+    font-size: 1.8rem;
+    // font-size: 3.8vw;
+  }
+  .el-button , .el-dialog__headerbtn{
+    font-size: 1rem;
+  }
+  .el-select .el-input .el-select__caret , .el-select-dropdown__empty {
+    font-size:1rem;
+  }
+  .el-dialog , .el-select, .el-input, .el-form-item__label, .el-select-dropdown__item{
+    font-size: 1rem;
+  }
+  .el-input__inner, .el-form-item__label {
+    height: 2rem;
+    line-height: 2rem;
+  }
+  .el-input__icon {
+    width: auto;
+  }
+  .el-dialog__header, .el-dialog__title {
+    font-size: 1rem;
+  }
+  .el-dialog__body {
+    font-size: 1rem;
+  }
+  .el-dialog__footer {
+    font-size: 1rem;
+  }
+
+}

@@ -1,0 +1,76 @@
+
+@import '../mobileViews/shop/common/fonts/iconfont.css';
+@import '../mobileViews/shop/common/fonts/iconfont2.css';
+@import '../mobileViews/shop/common/fonts/iconfont3.css';
+
+
+.mobile-app-wrapper {
+  .el-dialog {
+    width: 85%!important;
+  }
+
+  .el-table .cell, .el-table__header-wrapper .cell {
+    line-height: 32px;
+  }
+  .el-select, .el-input { width: 100%; }
+  .el-input__inner { background-color: inherit; }
+  .el-input-inner, .el-input input { height: 75px; line-height: 75px; font-size: 32px; }
+  .el-date-editor--timerange.el-input__inner {
+    width: 100%;
+  }
+  // .el-dialog, .el-form-item,.el-select, .el-input,.el-form-item__label, .el-form-item__content {
+  //   line-height: 75px;
+  //   font-size: 32px;
+  // }
+  /* .el-select-dropdown__item { */
+  /*   width: 100%; */
+  /*   line-height: 64px; */
+  /*   height: 64px; */
+  /*   font-size: 32px!important; */
+  /* } */
+  // .el-select .el-input .el-select__caret.is-show-close {
+  //   font-size: 32px;
+  //   line-height: 64px;
+  // }
+  // .el-form-item {
+  //   margin-bottom: 35px;
+  // }
+  ul {
+    padding-left: 0;
+    list-style: none;
+    margin:0;
+  }
+  /* .el-select-dropdown__item { */
+  /*   height: 64px; */
+  /*   font-size: 32px!important; */
+  /* } */
+  /* .el-message__content { */
+  /*   font-size: 32px!important; */
+  /* } */
+
+  /* .el-form-item__error { */
+  /*   font-size: 32px !important; */
+  /* } */
+
+  /* .el-scrollbar .el-autocomplete-suggestion__wrap li{ */
+  /*   font-size: 32px !important; */
+  /*   line-height: 48px !important; */
+  /* } */
+
+  .detail-control {
+    .el-button {
+      margin-bottom: 0.6rem;
+      margin-top: 0.6rem;
+      font-size: 1.2rem;
+      padding: 0.5rem;
+    }
+    .el-dialog__body {
+      padding: 40px 40px
+    }
+    .el-dialog__header {
+      display:none!important;
+    }
+  }
+
+
+}
